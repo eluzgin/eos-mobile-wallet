@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2875BB520453EA700677897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2875BB420453EA700677897 /* AppDelegate.swift */; };
+		A2875BB720453EA700677897 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2875BB620453EA700677897 /* MasterViewController.swift */; };
+		A2875BB920453EA700677897 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2875BB820453EA700677897 /* DetailViewController.swift */; };
+		A2875BBC20453EA700677897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2875BBA20453EA700677897 /* Main.storyboard */; };
+		A2875BBE20453EA700677897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2875BBD20453EA700677897 /* Assets.xcassets */; };
+		A2875BC120453EA700677897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2875BBF20453EA700677897 /* LaunchScreen.storyboard */; };
+		A2875BCC20453EA700677897 /* eos_walletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2875BCB20453EA700677897 /* eos_walletTests.swift */; };
+		A2875BD720453EA700677897 /* eos_walletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2875BD620453EA700677897 /* eos_walletUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2875BC820453EA700677897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2875BA920453EA600677897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2875BB020453EA700677897;
+			remoteInfo = "eos-wallet";
+		};
+		A2875BD320453EA700677897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2875BA920453EA600677897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2875BB020453EA700677897;
+			remoteInfo = "eos-wallet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2875BB120453EA700677897 /* eos-wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eos-wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2875BB420453EA700677897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2875BB620453EA700677897 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		A2875BB820453EA700677897 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A2875BBB20453EA700677897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2875BBD20453EA700677897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2875BC020453EA700677897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2875BC220453EA700677897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2875BC720453EA700677897 /* eos-walletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eos-walletTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2875BCB20453EA700677897 /* eos_walletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eos_walletTests.swift; sourceTree = "<group>"; };
+		A2875BCD20453EA700677897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2875BD220453EA700677897 /* eos-walletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eos-walletUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2875BD620453EA700677897 /* eos_walletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eos_walletUITests.swift; sourceTree = "<group>"; };
+		A2875BD820453EA700677897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2875BAE20453EA700677897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2875BC420453EA700677897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2875BCF20453EA700677897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2875BA820453EA600677897 = {
+			isa = PBXGroup;
+			children = (
+				A2875BB320453EA700677897 /* eos-wallet */,
+				A2875BCA20453EA700677897 /* eos-walletTests */,
+				A2875BD520453EA700677897 /* eos-walletUITests */,
+				A2875BB220453EA700677897 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2875BB220453EA700677897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2875BB120453EA700677897 /* eos-wallet.app */,
+				A2875BC720453EA700677897 /* eos-walletTests.xctest */,
+				A2875BD220453EA700677897 /* eos-walletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2875BB320453EA700677897 /* eos-wallet */ = {
+			isa = PBXGroup;
+			children = (
+				A2875BB420453EA700677897 /* AppDelegate.swift */,
+				A2875BB620453EA700677897 /* MasterViewController.swift */,
+				A2875BB820453EA700677897 /* DetailViewController.swift */,
+				A2875BBA20453EA700677897 /* Main.storyboard */,
+				A2875BBD20453EA700677897 /* Assets.xcassets */,
+				A2875BBF20453EA700677897 /* LaunchScreen.storyboard */,
+				A2875BC220453EA700677897 /* Info.plist */,
+			);
+			path = "eos-wallet";
+			sourceTree = "<group>";
+		};
+		A2875BCA20453EA700677897 /* eos-walletTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2875BCB20453EA700677897 /* eos_walletTests.swift */,
+				A2875BCD20453EA700677897 /* Info.plist */,
+			);
+			path = "eos-walletTests";
+			sourceTree = "<group>";
+		};
+		A2875BD520453EA700677897 /* eos-walletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2875BD620453EA700677897 /* eos_walletUITests.swift */,
+				A2875BD820453EA700677897 /* Info.plist */,
+			);
+			path = "eos-walletUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2875BB020453EA700677897 /* eos-wallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2875BDB20453EA700677897 /* Build configuration list for PBXNativeTarget "eos-wallet" */;
+			buildPhases = (
+				A2875BAD20453EA700677897 /* Sources */,
+				A2875BAE20453EA700677897 /* Frameworks */,
+				A2875BAF20453EA700677897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eos-wallet";
+			productName = "eos-wallet";
+			productReference = A2875BB120453EA700677897 /* eos-wallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2875BC620453EA700677897 /* eos-walletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2875BDE20453EA700677897 /* Build configuration list for PBXNativeTarget "eos-walletTests" */;
+			buildPhases = (
+				A2875BC320453EA700677897 /* Sources */,
+				A2875BC420453EA700677897 /* Frameworks */,
+				A2875BC520453EA700677897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2875BC920453EA700677897 /* PBXTargetDependency */,
+			);
+			name = "eos-walletTests";
+			productName = "eos-walletTests";
+			productReference = A2875BC720453EA700677897 /* eos-walletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2875BD120453EA700677897 /* eos-walletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2875BE120453EA700677897 /* Build configuration list for PBXNativeTarget "eos-walletUITests" */;
+			buildPhases = (
+				A2875BCE20453EA700677897 /* Sources */,
+				A2875BCF20453EA700677897 /* Frameworks */,
+				A2875BD020453EA700677897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2875BD420453EA700677897 /* PBXTargetDependency */,
+			);
+			name = "eos-walletUITests";
+			productName = "eos-walletUITests";
+			productReference = A2875BD220453EA700677897 /* eos-walletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2875BA920453EA600677897 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Eugene.Luzgin;
+				TargetAttributes = {
+					A2875BB020453EA700677897 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A2875BC620453EA700677897 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2875BB020453EA700677897;
+					};
+					A2875BD120453EA700677897 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2875BB020453EA700677897;
+					};
+				};
+			};
+			buildConfigurationList = A2875BAC20453EA600677897 /* Build configuration list for PBXProject "eos-wallet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2875BA820453EA600677897;
+			productRefGroup = A2875BB220453EA700677897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2875BB020453EA700677897 /* eos-wallet */,
+				A2875BC620453EA700677897 /* eos-walletTests */,
+				A2875BD120453EA700677897 /* eos-walletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2875BAF20453EA700677897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2875BC120453EA700677897 /* LaunchScreen.storyboard in Resources */,
+				A2875BBE20453EA700677897 /* Assets.xcassets in Resources */,
+				A2875BBC20453EA700677897 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2875BC520453EA700677897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2875BD020453EA700677897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2875BAD20453EA700677897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2875BB920453EA700677897 /* DetailViewController.swift in Sources */,
+				A2875BB720453EA700677897 /* MasterViewController.swift in Sources */,
+				A2875BB520453EA700677897 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2875BC320453EA700677897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2875BCC20453EA700677897 /* eos_walletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2875BCE20453EA700677897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2875BD720453EA700677897 /* eos_walletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2875BC920453EA700677897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2875BB020453EA700677897 /* eos-wallet */;
+			targetProxy = A2875BC820453EA700677897 /* PBXContainerItemProxy */;
+		};
+		A2875BD420453EA700677897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2875BB020453EA700677897 /* eos-wallet */;
+			targetProxy = A2875BD320453EA700677897 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2875BBA20453EA700677897 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2875BBB20453EA700677897 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2875BBF20453EA700677897 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2875BC020453EA700677897 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2875BD920453EA700677897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2875BDA20453EA700677897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2875BDC20453EA700677897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "eos-wallet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ses.network.eos-wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A2875BDD20453EA700677897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "eos-wallet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ses.network.eos-wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A2875BDF20453EA700677897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "eos-walletTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ses.network.eos-walletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eos-wallet.app/eos-wallet";
+			};
+			name = Debug;
+		};
+		A2875BE020453EA700677897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "eos-walletTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ses.network.eos-walletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eos-wallet.app/eos-wallet";
+			};
+			name = Release;
+		};
+		A2875BE220453EA700677897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "eos-walletUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ses.network.eos-walletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "eos-wallet";
+			};
+			name = Debug;
+		};
+		A2875BE320453EA700677897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "eos-walletUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ses.network.eos-walletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "eos-wallet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2875BAC20453EA600677897 /* Build configuration list for PBXProject "eos-wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2875BD920453EA700677897 /* Debug */,
+				A2875BDA20453EA700677897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2875BDB20453EA700677897 /* Build configuration list for PBXNativeTarget "eos-wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2875BDC20453EA700677897 /* Debug */,
+				A2875BDD20453EA700677897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2875BDE20453EA700677897 /* Build configuration list for PBXNativeTarget "eos-walletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2875BDF20453EA700677897 /* Debug */,
+				A2875BE020453EA700677897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2875BE120453EA700677897 /* Build configuration list for PBXNativeTarget "eos-walletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2875BE220453EA700677897 /* Debug */,
+				A2875BE320453EA700677897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2875BA920453EA600677897 /* Project object */;
+}
