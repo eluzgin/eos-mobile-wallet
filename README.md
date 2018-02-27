@@ -1,4 +1,4 @@
-# eos-mobile-wallet
+# EOS Mobile Wallet (for iPhone)
 
 This is an initial project for iPhone EOS wallet. 
 
